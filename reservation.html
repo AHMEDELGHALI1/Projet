@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Al BarQ - Réservation</title>
+    <link rel="stylesheet" href="css3.css" />
+    <script src="js3.js"></script>
+  </head>
+  <body>
+    <main>
+      <section>
+        <header>
+          <h1>Bienvenue chez <strong>Al BarQ</strong></h1>
+        </header>
+        <nav>
+          <ul>
+            <li><a href="acceuil.html">Acceuil</a></li>
+            <li>
+              <a href="offres.html">Offres de voyages</a>
+            </li>
+            <li>
+              <a href="reservation.html">Résérvation</a>
+            </li>
+            <li>
+              <a href="conseils.html">Conseils de voyage</a>
+            </li>
+            <li><a href="temoignange.html">Témoignages</a></li>
+            <li>
+              <a href="aproposdenous.html">À propos de nous</a>
+            </li>
+            <li><a href="contact.html">Contact</a></li>
+            <li>
+              <a href="Mentions.html">Mentions légales</a>
+            </li>
+          </ul>
+        </nav>
+        <h1>Bienvenue chez Al BarQ !</h1>
+        <p>
+          Prêt à réserver votre voyage ? Remplissez notre formulaire simple et
+          rapide pour garantir votre place. Votre aventure commence ici !
+        </p>
+        <form action="" method="post">
+          <table>
+            <tr>
+              <td>
+                <label for="nom">Nom :</label>
+              </td>
+              <td>
+                <input
+                  id="nom"
+                  placeholder="Entrez votre nom :"
+                  required
+                  type="text"
+                  name="nom" />
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <label for="email">E-mail :</label>
+              </td>
+              <td>
+                <input
+                  id="email"
+                  placeholder="Entrez votre E-mail :"
+                  required
+                  type="email"
+                  name="email" />
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <label for="numtel">Téléphone :</label>
+              </td>
+              <td>
+                <input
+                  id="numtel"
+                  placeholder="Entrez votre numéro de téléphone :"
+                  required
+                  type="tel"
+                  name="numtel" />
+              </td>
+            </tr>
+
+            <tr>
+              <td>Ville de départ :</td>
+              <td>
+                <select required name="ville_depart" id="ville_depart">
+                  <option selected disabled value="0">
+                    Choisissez une ville de départ !
+                  </option>
+                  <option value="Casablanca">Casablanca</option>
+                  <option value="Rabat">Rabat</option>
+                  <option value="Marrakech">Marrakech</option>
+                  <option value="Fès">Fès</option>
+                  <option value="Tanger">Tanger</option>
+                  <option value="Agadir">Agadir</option>
+                  <option value="Meknès">Meknès</option>
+                  <option value="Oujda">Oujda</option>
+                  <option value="Tetouan">Tetouan</option>
+                  <option value="Safi">Safi</option>
+                  <option value="El Jadida">El Jadida</option>
+                  <option value="Nador">Nador</option>
+                  <option value="Kénitra">Kénitra</option>
+                  <option value="Essaouira">Essaouira</option>
+                  <option value="Al Hoceima">Al Hoceima</option>
+                  <option value="Chefchaouen">Chefchaouen</option>
+                  <option value="Ifrane">Ifrane</option>
+                </select>
+              </td>
+            </tr>
+
+            <tr>
+              <td>Ville d'arrivée :</td>
+              <td>
+                <select required name="ville_arv" id="ville_arv">
+                  <option selected disabled value="0">
+                    Choisissez une ville d'arrivée' !
+                  </option>
+                  <option value="Casablanca">Casablanca</option>
+                  <option value="Rabat">Rabat</option>
+                  <option value="Marrakech">Marrakech</option>
+                  <option value="Fès">Fès</option>
+                  <option value="Tanger">Tanger</option>
+                  <option value="Agadir">Agadir</option>
+                  <option value="Meknès">Meknès</option>
+                  <option value="Oujda">Oujda</option>
+                  <option value="Tetouan">Tetouan</option>
+                  <option value="Safi">Safi</option>
+                  <option value="El Jadida">El Jadida</option>
+                  <option value="Nador">Nador</option>
+                  <option value="Kénitra">Kénitra</option>
+                  <option value="Essaouira">Essaouira</option>
+                  <option value="Al Hoceima">Al Hoceima</option>
+                  <option value="Chefchaouen">Chefchaouen</option>
+                  <option value="Ifrane">Ifrane</option>
+                </select>
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <label for="nombre_personnes">Nombre de personnes :</label>
+              </td>
+              <td>
+                <input
+                  id="nombre_personnes"
+                  required
+                  type="number"
+                  min="1"
+                  max="10"
+                  name="nombre_personnes"
+                  placeholder="Entrez combien de voyageurs : " />
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <label for="commentaire">Commentaire supplémentaire :</label>
+              </td>
+              <td>
+                <textarea
+                  name="commentaire"
+                  id="commentaire"
+                  cols="50"
+                  rows="5"></textarea>
+              </td>
+            </tr>
+          </table>
+          <input type="submit" value="Réserver" />
+        </form>
+        <p>
+          Cliquez sur "Réserver" pour confirmer votre voyage. Une fois votre
+          réservation confirmée, vous recevrez un e-mail avec tous les détails
+          nécessaires.
+        </p>
+      </section>
+    </main>
+  </body>
+</html>

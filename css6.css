@@ -1,0 +1,85 @@
+/* RESET CSS pour un style de base uniforme sur tous les navigateurs */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Corps de la page */
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #f4f4f9;
+  color: #333;
+  line-height: 1.6;
+  padding-top: 20px;
+}
+
+/* En-tête */
+header h1 {
+  font-size: 2em;
+  color: #1e3d58;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Navigation */
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  background-color: #1e3d58;
+  padding: 10px 0;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.1em;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #f39c12;
+}
+
+/* Section principale */
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Contenu de la section */
+section {
+  background-color: white;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+/* Texte de la section */
+h1 {
+  font-size: 2.5em;
+  color: #1e3d58;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 1.1em;
+  line-height: 1.7;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+/* Footer */
+footer {
+  background-color: #1e3d58;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 30px;
+}
